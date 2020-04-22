@@ -19,8 +19,6 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        //Creating Objects -
-        Contact contact = new Contact();
         MobilePhone mobilePhone = new MobilePhone();
 
         int choice = 0;
@@ -41,7 +39,8 @@ public class Main {
                     String name = scanner.next();
                     System.out.println("Enter Number : ");
                     String number = scanner.next();
-                    mobilePhone.addContact(contact.createContact(name,number));
+
+                    mobilePhone.addContact(Contact.create(name,number));
                     break;
                 case 3:
                     System.out.println("Enter Name/Number of Contact to be searched : ");
@@ -61,7 +60,7 @@ public class Main {
                     String newName = scanner.next();
                     System.out.println("Enter new Number : ");
                     String newNumber = scanner.next();
-                    mobilePhone.modifyContact(nameOrNumber,contact.createContact(newName,newNumber));
+                    mobilePhone.modifyContact(nameOrNumber,Contact.create(newName,newNumber));
                     break;
                 case 6:
                     System.out.println("Exiting Application");

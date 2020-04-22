@@ -19,7 +19,7 @@ public class MobilePhone {
         for (int i = 0; i < contactArrayList.size(); i++) {
             if (this.contactArrayList.get(i).getName().toLowerCase().equals(nameOrNumber.toLowerCase()) || this.contactArrayList.get(i).getNumber().equals(nameOrNumber)) {
                 return i;
-            }
+            }//sdfkjshdfkjhdfkj
         }
         return -1;
     }
