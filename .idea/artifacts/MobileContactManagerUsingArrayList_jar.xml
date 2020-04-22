@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MobileContactManagerUsingArrayList:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MobileContactManagerUsingArrayList_jar</output-path>
+    <root id="archive" name="MobileContactManagerUsingArrayList.jar">
+      <element id="module-output" name="MobileContactManagerUsingArrayList" />
+    </root>
+  </artifact>
+</component>
