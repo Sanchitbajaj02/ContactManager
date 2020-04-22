@@ -7,6 +7,7 @@ public class MobilePhone {
 
     public void addContact(Contact newContact) {
         System.out.println("\n");
+        //adding this comment
         if (contactArrayList.contains(newContact)) { //Directly Comparing Object(Hence Loop Not Needed)
             System.out.println("Contact Already Exists");
         }
